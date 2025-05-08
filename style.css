@@ -1,0 +1,41 @@
+/* General container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling for the uploaded image container */
+.uploaded-img-container {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Styling the uploaded image */
+.uploaded-img img {
+    max-width: 40%;   /* Reduced image width to 40% of the container width */
+    max-height: 250px; /* Setting a smaller max-height */
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styling for the prediction result box */
+.prediction-box {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #007bff; /* Blue border color */
+    padding: 20px;
+    width: 60%;  /* Adjusted width to reduce length of the blue box */
+    margin: 0 auto;
+    background-color: #e9f7fe; /* Light blue background */
+}
+
+/* Alert box for prediction result */
+.alert {
+    border-radius: 5px;
+    padding: 10px;
+}
