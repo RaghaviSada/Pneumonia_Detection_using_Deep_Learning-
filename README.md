@@ -1,0 +1,3 @@
+Pneumonia remains one of the leading causes of death worldwide, and early detection is crucial for effective treatment. Chest X-rays are commonly used for diagnosing pneumonia, but their interpretation requires trained radiologists, often leading to delays in diagnosis. This project proposes an automated system for pneumonia detection from chest X-ray images using the VGG19 deep learning model. The model leverages transfer learning on the VGG19 architecture, pre-trained on the ImageNet dataset, and fine-tuned on a dataset of chest X-ray images to classify them as Normal ,Pneumonia or
+Non-Chest Xray.
+
